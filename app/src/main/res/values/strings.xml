@@ -1129,6 +1129,7 @@
     <string name="press_actionbar">Press arrow to show actionbar</string>
     <string name="tap_actionbar">Long press for actionbar</string>
     <string name="always_actionbar">Always show actionbar</string>
+    <string name="show_infobar">Show infobar</string>
     <string name="sub_content_filter">Subreddit content filter</string>
     <string name="submission_share_reddit_url">Share comments</string>
     <string name="filter_content">Filter this content</string>
