@@ -355,7 +355,9 @@ public class EditCardsLayout extends BaseActivityAnim {
                 layout.addView(CreateCardView.setSmallTag(isChecked, layout));
             }
         });
-
+        
+        final SwitchCompat showInfoBar = (SwitchCompat) findViewById(R.id.showinfobar);
+        smallTag.setChecked(SettingValues.showInfoBar);
 
         //Actionbar//
         //Enable, collapse//
