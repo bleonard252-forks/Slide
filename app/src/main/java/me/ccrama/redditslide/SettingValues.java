@@ -155,7 +155,7 @@ public class SettingValues {
     public static boolean                 colorBack;
     public static boolean                 colorNavBar;
     public static boolean                 actionbarVisible;
-    public static boolean                 infobarVisible;
+    public static boolean                 showInfoBar;
     public static boolean                 actionbarTap;
     public static boolean                 commentAutoHide;
     public static boolean                 showCollapseExpand;
