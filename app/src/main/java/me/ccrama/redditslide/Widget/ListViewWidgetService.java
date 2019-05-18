@@ -225,6 +225,10 @@ class ListViewRemoteViewsFactory implements RemoteViewsService.RemoteViewsFactor
                             mContext));
             rv.setTextViewText(R.id.subreddit, data.getSubredditName());
             rv.setTextColor(R.id.subreddit, Palette.getColor(data.getSubredditName()));
+            if (SettingValues.showInfoBar == false) {
+                rv.setViewVisibility(R.id.subreddit, View.GONE);
+                rv.setViewVisibility(R.id.information, View.GONE);
+            }
             if (SubredditWidgetProvider.getViewType(id, mContext) == 1) {
                 Thumbnails s = data.getThumbnails();
                 rv.setViewVisibility(R.id.thumbimage2, View.GONE);
