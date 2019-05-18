@@ -42,6 +42,7 @@ public class SettingValues {
     public static final String PREF_EXPANDED_TOOLBAR          = "expandedToolbar";
     public static final String PREF_SWAP                      = "Swap";
     public static final String PREF_ACTIONBAR_VISIBLE         = "actionbarVisible";
+    public static final String PREF_INFOBAR_VISIBLE           = "infobarVisible";
     public static final String PREF_SMALL_TAG                 = "smallTag";
     public static final String PREF_ACTIONBAR_TAP             = "actionbarTap";
     public static final String PREF_STORE_HISTORY             = "storehistory";
@@ -154,6 +155,7 @@ public class SettingValues {
     public static boolean                 colorBack;
     public static boolean                 colorNavBar;
     public static boolean                 actionbarVisible;
+    public static boolean                 infobarVisible;
     public static boolean                 actionbarTap;
     public static boolean                 commentAutoHide;
     public static boolean                 showCollapseExpand;
@@ -403,6 +405,7 @@ public class SettingValues {
         hideButton = prefs.getBoolean(PREF_HIDEBUTTON, false);
         saveButton = prefs.getBoolean(PREF_SAVE_BUTTON, false);
         actionbarVisible = prefs.getBoolean(PREF_ACTIONBAR_VISIBLE, true);
+        infobarVisible = prefs.getBoolean(PREF_INFOBAR_VISIBLE, true);
         actionbarTap = prefs.getBoolean(PREF_ACTIONBAR_TAP, false);
         colorIcon = prefs.getBoolean(PREF_COLOR_ICON, false);
         peek = prefs.getBoolean(PREF_PEEK, false);
